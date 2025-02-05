@@ -7,16 +7,25 @@
     <title>Gallery</title>
     <link rel="stylesheet" href="./css/1-gallery.css" />
     <link rel="stylesheet" href="./css/back-link.css" />
+    
+    <!-- Підключення SimpleLightbox через CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.4.0/simple-lightbox.min.css" />
   </head>
   <body>
-
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
         <h1 class="main-title">Gallery</h1>
       </div>
+      
+      <!-- Галерея -->
+      <ul class="gallery js-gallery"></ul>
     </main>
-<script type="module" src="./js/1-gallery.js" defer></script>
 
+    <!-- Підключення SimpleLightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.4.0/simple-lightbox.min.js"></script>
+
+    <!-- Ваш власний скрипт для галереї -->
+    <script type="module" src="./js/1-gallery.js" defer></script>
   </body>
 </html>

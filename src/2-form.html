@@ -13,6 +13,30 @@
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
         <h1 class="main-title">Form</h1>
+
+        <!-- Форма -->
+        <form class="feedback-form">
+          <label class="feedback-label" for="email">Email:</label>
+          <input
+            class="feedback-email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email"
+            required
+          />
+          
+          <label class="feedback-label" for="message">Message:</label>
+          <textarea
+            class="feedback-message"
+            name="message"
+            id="message"
+            placeholder="Your message"
+            required
+          ></textarea>
+          
+          <button class="submit-btn" type="submit">Submit</button>
+        </form>
       </div>
     </main>
     <script type="module" src="./js/2-form.js"></script>

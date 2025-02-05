@@ -33,6 +33,7 @@ export default defineConfig(({ command }) => {
             return 'assets/[name]-[hash][extname]';
           },
         },
+        external: ['simplelightbox'],  // Добавил сюда
       },
       outDir: '../dist',
       emptyOutDir: true,
